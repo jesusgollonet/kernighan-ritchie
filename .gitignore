@@ -1,0 +1,6 @@
+.DS_Store
+#ignore all files of the pattern something-something
+*-*
+# unignore the ones that have a c extension
+!*.c
+

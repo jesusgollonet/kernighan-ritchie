@@ -1,0 +1,12 @@
+#!/bin/bash
+
+main(){
+    local target base
+    target="$1"
+    base="${target%.*}"
+    gcc "$target" -o "$base" 
+    #clear
+    "$base"
+}
+
+main "$1"
