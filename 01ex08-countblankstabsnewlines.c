@@ -6,7 +6,6 @@ struct counteeChar{
     int ch;
     char * name;
     int count;
-
 };
 
 struct counteeChar makeCounteeChar(int ch, char * name){
