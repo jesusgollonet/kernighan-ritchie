@@ -5,7 +5,6 @@ main(){
     target="$1"
     base="${target%.*}"
     gcc "$target" -o "$base" 
-    #clear
     "$base"
 }
 

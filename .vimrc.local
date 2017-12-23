@@ -1,1 +1,2 @@
 map ,r :w\|:!./bin/run %<cr>
+map ,d :w\|:!./bin/disassemble %<cr> :e 010502-charcount.s<cr>
